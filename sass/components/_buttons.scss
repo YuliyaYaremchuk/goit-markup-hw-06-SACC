@@ -1,0 +1,27 @@
+.buttons {
+  border: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+
+  padding: 16px 32px;
+
+  color: var(--bcg-color-font);
+  background-color: var(--bt-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  
+  cursor: pointer;
+
+  transition: background-color var(--transition-duration--timing-f);
+
+
+  &:hover,
+  &:focus {
+    background-color: var(--select-color);
+  }
+}
+

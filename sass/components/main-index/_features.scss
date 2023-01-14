@@ -1,0 +1,33 @@
+.features-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .features-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  
+  .features-subtitle {
+    margin-bottom: 8px;
+  }
+  
+  .features-icons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-color);
+    height: 112px;
+    border-radius: 4px;
+  
+    margin-bottom: 8px;
+  }
+  
+  .features-icons {
+    width: 64px;
+    height: 64px;
+  }

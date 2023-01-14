@@ -1,0 +1,46 @@
+.customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+  }
+  
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    &-item {
+        $width: 100%;
+        flex-basis: calc((#{$width} - 120) - 6);
+      }
+  }
+  
+  .customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+  
+    border: 1px solid var(--company-color);
+    border-radius: 4px;
+  
+    transition: border-color var(--transition-duration--timing-f);
+
+      &:hover,
+      &:focus {
+        border-color: var(--select-color);
+      }
+  }
+  
+  .customers-link-icon {
+    fill: var(--company-color);
+  
+    transition: fill var(--transition-duration--timing-f);
+
+    .customers-link:hover &,
+    .customers-link:focus & {
+      fill: var(--select-color);
+    }
+  }
+  
+  

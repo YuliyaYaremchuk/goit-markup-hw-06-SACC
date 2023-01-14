@@ -1,0 +1,13 @@
+.about-us {
+  padding-bottom: 120px;
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  &-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+}

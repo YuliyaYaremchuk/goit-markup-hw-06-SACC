@@ -1,1 +1,35 @@
+//utils
+@import './utils/variables';
+@import './utils/v-hidden';
+
+//base
+@import './base/base';
+@import './base/reset';
+
+//components
+@import './components/components';
+@import './components/container';
+@import './components/typography';
+@import './components/buttons';
+@import './components/logo';
+@import './components/header';
+@import './components/footer';
+//components-INDEX
+@import './components/main-index/hero';
+@import './components/main-index/features';
+@import './components/main-index/about-us';
+@import './components/main-index/team';
+@import './components/main-index/customers';
+//components-PORTFOLIO
+@import './components/main-portfolio/portfolio-section';
+@import './components/main-portfolio/filter-list';
+@import './components/main-portfolio/production';
+//components-MODAL-W
+@import './components/modal-w/backdrop';
+@import './components/modal-w/modal-window';
+@import './components/modal-w/modal-form';
+
+
+
+
 

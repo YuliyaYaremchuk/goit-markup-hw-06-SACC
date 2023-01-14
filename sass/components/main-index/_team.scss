@@ -1,0 +1,56 @@
+.team {
+  background-color: var(--light-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  background-color: var(--bcg-color-font);
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.employee-description {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.employee-description > h3 {
+  margin-bottom: 8px;
+}
+
+.employee-description > p {
+  margin-bottom: 8px;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--bt-color);
+
+  transition: background-color var(--transition-duration--timing-f);
+
+  &:hover,
+  &:focus {
+    background-color: var(--select-color);
+  }
+
+  &-icon {
+    fill: var(--light-color);
+  }
+}

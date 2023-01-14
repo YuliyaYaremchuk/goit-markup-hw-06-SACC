@@ -1,0 +1,43 @@
+.filter-list {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-list .filter-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.filter-btn {
+  border: 1px solid var(--tertiary-color);
+  border-radius: 4px;
+
+  padding: 8px 16px;
+
+  color: var(--select-color);
+  background-color: var(--light-color);
+  
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+
+  transition: color var(--transition-duration--timing-f),
+    background-color var(--transition-duration--timing-f),
+    border-color var(--transition-duration--timing-f),
+    box-shadow var(--transition-duration--timing-f);
+
+  &:hover,
+  &:focus {
+    color: var(--bcg-color-font);
+    background-color: var(--select-color);
+    border-color: transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
